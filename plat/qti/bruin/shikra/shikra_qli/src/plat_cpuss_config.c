@@ -6,6 +6,8 @@
 
 #include <stdint.h>
 
+#include <platform_def.h>
+
 /*
  * APSS_SPI_CONFIG_BASE is defined in platform_def.h (APSS_INTU_BASE + 0x00F0).
  * Each bit represents one SPI: bit=1 → level-triggered (default),
